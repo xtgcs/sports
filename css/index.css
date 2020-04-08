@@ -1,0 +1,258 @@
+* {
+    font-family: 'Georgia';
+}
+
+/* @media (min-width: 768px){
+ .content{
+    width: 750px;
+ }
+} */
+
+@media(max-width:991px) {
+
+    /* .container{
+        width: 970px;
+    } */
+    .home {
+        padding-top: 50px;
+    }
+
+    .swiper-slide .banner_text {
+        font-size: 18px;
+        padding: 0 15px;
+    }
+
+    .slider_content {
+        left: 15px;
+        bottom: 35px;
+    }
+
+    .businesses {
+        padding: 0 15px;
+    }
+
+    .businesses_top {
+        padding: 39px 0 28px 0;
+        width: 73%;
+        margin: 0 auto;
+    }
+
+    .businesses_top .title {
+        color: #333333;
+        font-size: 18px;
+        font-weight: bold;
+        padding-bottom: 24px;
+        text-align: center;
+    }
+
+    .businesses_top p {
+        font-size: 15px;
+        color: #333333;
+    }
+
+    .businesses_content {
+        background-color: #065383;
+        padding: 25px 35px;
+        color: #fff;
+    }
+
+    .businesses_content .item {
+        margin-bottom: 27px;
+    }
+
+    .businesses_content .item:last-child {
+        margin-bottom: 0;
+    }
+
+    .businesses_content .item .content_title {
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 17px;
+    }
+
+    .businesses_content .item>p {
+        font-size: 15px;
+    }
+
+    /* 新闻模块 */
+    .news {
+        padding: 40px 15px 0 15px;
+
+    }
+
+    .news_title {
+        padding-bottom: 24px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .news_title .title {
+        font-size: 18px;
+    }
+
+    .news_title .more {
+        font-size: 12px;
+        margin-top: 11px;
+    }
+
+    .news_list {
+        color: #333333;
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 6px 10px 11px 1px rgba(51, 51, 51, 0.15);
+        margin-bottom: 25px;
+    }
+
+    .news_list>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .news_list .news_desc {
+        padding: 20px 10px;
+        font-size: 15px;
+        line-height: 22.5px;
+        text-transform: uppercase;
+    }
+
+    .news_list .news_time {
+        text-align: right;
+        font-size: 12px;
+        padding-bottom: 15px;
+        padding-right: 11px;
+    }
+}
+
+
+.swiper-slide {
+    position: relative;
+}
+
+.swiper-slide .slide_img {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slide .banner_text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Georgia';
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.swiper-slide .banner_text .title {
+    text-align: left;
+}
+
+.slider_content {
+    position: absolute;
+    left: 0;
+    top: auto;
+    bottom: 77px;
+    z-index: 1000;
+}
+
+.more_news_btn {
+    margin-top: 20px;
+    width: 500px;
+    background: linear-gradient(90deg, rgba(0, 91, 172, 1) 0%, rgba(0, 91, 172, 0) 100%);
+}
+
+.more_news_btn a {
+    display: block;
+    color: #fff;
+    padding: 12px 20px;
+}
+
+.businesses_pc{
+    padding-top:106px;
+}
+.businesses_pc_title{
+    color: #333333;
+    font-size: 44px;
+}
+
+.businesses_pc .desc{
+    width: 989px;
+    color: #333333;
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+
+.businesses_content {
+    padding-top: 32px;
+    color: #333333;
+    padding-right: 64px;
+}
+
+.businesses_content .item {
+    margin-bottom: 68px;
+}
+
+.businesses_content .item:last-child {
+    margin-bottom: 0;
+}
+
+.businesses_content .item .content_title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #0E5283;
+}
+
+.businesses_content .item>p {
+    font-size: 21px;
+}
+.news_pc_wrap{
+    margin-top: 110px;
+    position: relative;
+}
+.news_pc{
+    position: relative;
+}
+.news_pc .news_bg{
+    width: 100%;
+    height: auto;
+}
+.news_container{
+    position: absolute;
+    top:0;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.news_pc .box{
+   width: 105px;
+   height: 215px;
+   border:4px solid rgba(255,255,255,1);
+  position: absolute;
+  bottom: 90px;
+  left: 49px;
+}
+.news_pc .news_logo{
+    font-size: 72px;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 113px;
+    left: 0;
+    top:auto;
+}
+.news_container .more_box{
+    position: absolute;
+    right: 0;
+    bottom: 130px;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-transform: uppercase;
+
+}
+.news_pc_list{
+    position: relative;
+    top:-52px;
+}

@@ -1,22 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i');
-@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
-/*--------------------------------------------------------
-Templete Name: Fitaza
-Version: 1.1
-/*===================================================================== 
-Table of Content: 
-01 - TT-HEADER 
-02 - SWIPER 
-03 - TT-MSLIDE
-04 - About Us
-05 - Top Classes
-06 - Testimonial Section
-07 - Our Pricing 
-08 - Latest News
-09 - Image Hover Effect
-10-	FOOTER
-=====================================================================*/
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700'); */
+
 body{
 	margin: 0;
 	padding: 0;
@@ -48,7 +33,7 @@ p {
 .tt-header .logo {
 	display: inline-block;
 	position: relative;
-	line-height: 70px;
+	/* line-height: 70px; */
 	z-index: 101;
 	transition: none;
 }
@@ -154,7 +139,7 @@ body {
 	display: none;
 	position: relative;
 	float: right;
-	margin-top: 12px;
+	/* margin-top: 12px; */
 	padding: 0;
 	width: 25px;
 	height: 17px;
@@ -167,8 +152,8 @@ body {
 	top: 7px;
 	left: 0;
 	right: 0;
-	height: 3px;
-	background: #fff;
+	height: 2px;
+	background: #000;
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
 	transition: all 300ms ease-in-out;
@@ -181,8 +166,8 @@ body {
 	top: 7px;
 	left: 0;
 	width: 100%;
-	height: 3px;
-	background: #fff;
+	height: 2px;
+	background: #000;
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
 	transition: all 300ms ease-in-out;
@@ -643,9 +628,9 @@ body {
 	transform: rotate(-45deg);
 }
 
-.logo {
+/* .logo {
 	margin-top: 3px;
-}
+} */
 
 .header1 .wrapper-inner-tab-backgrounds-first {
 	margin-top: 4px;
@@ -654,12 +639,13 @@ body {
 .header1 .header_top_inner {
 	overflow: hidden;
 	clear: both;
+	padding-top:20px;
 	/*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
 }
 
-.header1 .header-top{
+/* .header1 .header-top{
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
+} */
 
 .header1 .header_top_inner .pull-left i {
 	padding-right: 9px;
@@ -688,7 +674,7 @@ body {
 }
 
 .header1 .header_social li a {
-	line-height: 48px;
+	line-height: 29px;
 	font-size: 16px;
 	color: #FFF;
 	-webkit-transition: all 400ms linear 0s;
@@ -797,9 +783,8 @@ body {
 
 .header1 .tt-header .main-nav>ul>li>a {
 	color: #fff;
-	font-size: 16px;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 500;
+	font-size: 20px;
+	font-family: 'Georgia';
 }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 02 - SWIPER */
@@ -820,12 +805,12 @@ body {
 	position: relative;
 }
 
-.swiper-pagination .swiper-pagination-bullet {
+/* .swiper-pagination .swiper-pagination-bullet {
 	width: 14px;
 	height: 14px;
 	background: #8e8d8d;
 	opacity: 1;
-}
+} */
 
 .swiper-pagination .swiper-pagination-bullet-active {
 	background: #3695cc;
@@ -839,7 +824,7 @@ body {
 	background: #043742;
 }
 /*swiper position*/
-.swiper-pagination.fixed {
+/* .swiper-pagination.fixed {
 	bottom: 32px;
 }
 
@@ -851,7 +836,7 @@ body {
 	position: relative;
 	top: 0;
 	margin-top: 30px;
-}
+} */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 03 - TT-MSLIDE */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -870,7 +855,8 @@ body {
 	color: #001a57;
 	font-size: 50px;
 	font-weight: 600;
-	font-family: 'Poppins', sans-serif text-align:left;
+	font-family: 'Poppins', 'sans-serif';
+	text-align:left;
 	margin-top: 0;
 	margin-bottom: 20px;
 	font-size: 40px;
@@ -972,8 +958,8 @@ body {
 .tt-mslide-title {
 	color: #fff;
 	margin-bottom: 10px;
-	font-size: 60px;
-	font-family: 'Work Sans', sans-serif;
+	font-size: 50px;
+	font-family:'Georgia';
 	text-transform: initial;
 	text-align: center;
 	font-weight: 500;
@@ -1016,21 +1002,34 @@ body {
 	margin: 0 auto;
 }
 
+.tt-mslide-title .title{
+	width: 941px;
+	text-align: left;
+	margin-bottom: 41px;
+}
+
 .hm4slider .tt-mslide-title h3 {
-	text-align: center;
+	text-align: left;
 	color: #fff;
 	margin-bottom: 5px;
+	font-family: 'Georgia';
+	font-weight: bold;
+	font-size: 49px;
+	/* line-height: 88px; */
+}
+.hm4slider .tt-mslide-title h3:first-child{
+	margin-bottom: 37px;
 }
 /*=============================== Slider fast======================================*/
 .hm4slider .slider_content .sim-button {
 	float: none;
 	margin-top: 20px;
 }
-
+/* 
 .hm4slider .slide1 {
-	background: url(../images/slide-1.jpg)no-repeat;
+	background: url(../images/banner/banner.png)no-repeat;
 	background-size: cover;
-}
+} */
 
 .hm4slider .slide2 {
 	background: url(../images/slide-2.jpg)no-repeat;
@@ -2868,9 +2867,9 @@ h3.tt-title {
 /*=====================================================================*/
 /*row fitness-section start from here*/
 /*=============================== ======================================*/
-.raw-fitnes .img-responsive {
+/* .raw-fitnes .img-responsive {
 	padding-bottom: ;
-}
+} */
 
 .raw-fitnes img.img-responsive {
 	padding-bottom: 36px;
@@ -2923,10 +2922,12 @@ p1 .sim-button {
 
 .wrapper-inner-tab-backgrounds-first {
 	float: NONE;
-	width: 56.33%;
-	MARGIN: 0 AUTO;
+	/* width: 56.33%;
+	margin: 0 auto; */
+	width: 500px;
 }
 
+/* 
 .button8 {
 	color: rgba(255, 255, 255, 1);
 	-webkit-transition: all 0.5s;
@@ -2935,23 +2936,23 @@ p1 .sim-button {
 	transition: all 0.5s;
 	border: 0;
 	position: relative;
-}
+} */
 
 .button8 a {
-	color: rgba(51, 51, 51, 1);
+	/* color: rgba(51, 51, 51, 1); */
 	text-decoration: none;
 	display: block;
 }
 
 .button8 span {
-	z-index: 1;
+	/* z-index: 1; */
 	display: block;
-	position: absolute;
-	width: 100%;
+	width: 50%;
 	height: 100%;
+	float: left;
 }
 
-.button8::before {
+/* .button8::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -2969,7 +2970,7 @@ p1 .sim-button {
 .button8:hover::before {
 	opacity: 1;
 	width: 100%;
-}
+} */
 
 .hm4slider .slider_content .sim-button {
 	float: none;
@@ -3290,17 +3291,18 @@ p1 .sim-button {
 .hm4slider .slider_content .sim-button {
 	float: none;
 	margin-top: 20px;
-	font-family: 'Poppins', sans-serif;
-	font-size: 18px;
-	line-height: 50px;
-	height: 50px;
-	text-align: center;
-	width: 168px;
+	font-family:'Georgia';
+	font-size: 26px;
+	line-height: 70px;
+	height: 70px;
+	width: 500px;
 	cursor: pointer;
-	background: #fb5b21;
+	background:linear-gradient(90deg,rgba(0,91,172,1) 0%,rgba(0,91,172,0) 100%);
+	/* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
 	border: 0;
 	margin-top: 12px;
 	margin: 0 auto;
+	
 }
 
 .inventore .simple {
@@ -10639,4 +10641,11 @@ h3.tt-title{
 }
 .scrollup.open{
   display: block;
+}
+
+@media (min-width: 1200px){
+.container {
+    width: 1200px;
+    padding: 0px;
+}
 }

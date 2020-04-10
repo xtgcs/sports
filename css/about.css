@@ -1,0 +1,271 @@
+a{
+    text-decoration: none;
+}
+@media(max-width:991px){
+    .company_m{
+        margin:39px 0;
+        padding: 0 15px;
+        font-family:'Georgia';
+    }
+    .company_m_title{
+        margin-bottom: 25px;
+        color: #333333;
+        font-size: 18px;
+        text-align: center;
+    }
+    .company_m_img{
+      width: 100%;
+      height: auto;
+    }
+    .company_m>p{
+        margin-top: 20px;
+        font-size: 15px;
+        max-height: 150px;
+        overflow: hidden;
+    }
+    .company_m_more{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 12px;
+        color: #969696;
+        text-transform: uppercase;
+    }
+    .company_m_more>img{
+        width: 8.5px;
+        height: 7.5px;
+        margin-left: 4px;
+
+    }
+    .business_m{
+       margin-bottom: 40px;
+       padding: 0 25px;
+    }
+    .business_m_bg{
+        width: 100%;
+        min-height: 200px;
+        background-color: #2E6793;
+        position: relative;
+    }
+    .business_m_title{
+        margin-bottom: 25px;
+        color: #333333;
+        font-size: 18px;
+        text-align: center;
+    }
+    .business_m .swiper-slide{
+        padding: 18px;
+    }
+    .business_m_icon{
+        width: 56px;
+    }
+    .business_m_content .top{
+       margin-bottom: 25px;
+    }
+    .business_m_content .title{
+        color: #FFFFFF;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 16px;
+        padding-left: 10px;
+    }
+    .business_m_bg p{
+        font-size: 15px;
+        color: #FFFFFF;
+    }
+
+    .business_m .swiper-button-prev,  .business_m .swiper-button-next{
+        width: 8px;
+        height: 15px;
+    }
+    .business_m .swiper-button-prev{
+        left: -15px;
+        background: url('../images/mobile/about_icon02.png') no-repeat;
+        background-size: 8px 15px;
+    }
+    .business_m .swiper-button-next{
+        right: -15px;
+        background: url('../images/mobile/about_icon03.png') no-repeat;
+        background-size: 8px 15px;
+    }
+    .leager_m{
+        font-family:'Georgia';
+        padding: 0 15px;
+        margin-bottom: 25px;
+    }
+    .leager_m_title{
+        font-size: 18px;
+        color: #333333;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .leager_list .list{
+        margin: 0;
+        background:rgba(255,255,255,1);
+         box-shadow:6px 10px 11px 1px rgba(51,51,51,0.15);
+         margin-bottom: 15px;
+    }
+    .leager_list .list img{
+        width: 100%;
+        height: auto;
+    }
+    .leager_list .list_content{
+        padding: 15px;
+    }
+    .leager_img{
+        padding: 0;
+    }
+    .list_content .title{
+        color: #333333;
+        font-size: 15px;
+        margin-bottom: 14px;
+    }
+    .list_content>p{
+        font-size: 12px;
+        color: #333333;
+    }
+}
+.company{
+    padding: 120px 0 58px 0;
+    color: #333333;
+    font-family:'Georgia';
+}
+.company_img{
+    padding-left: 0;
+    padding-right: 0;
+    width: 483px;
+    margin-right: 10px;
+}
+ .company_img>img{
+    width: 100%;
+    height: auto;
+}
+.company_content_box{
+    max-height: 660px;
+    overflow: hidden;
+}
+ .company_title {
+   font-size: 50px;
+   margin-bottom: 30px;
+   line-height: 50px;
+ }
+ .company_content_box p{
+    font-size: 24px;
+    line-height: 36px;
+ }
+ .company_content{
+     font-size: 24px;
+     line-height: 36px;
+     overflow: hidden;
+     padding-left: 0;
+     padding-right: 0;
+ }
+ .company_content_more{
+     font-size: 24px;
+     padding-top: 30px;
+     text-align: right;
+     cursor: pointer;
+ }
+ .about_icon{
+     width: 18px;
+     height: 16px;
+     margin-left:13px;
+ }
+
+/* PC Business模块 */
+ .business_pc{
+   margin-bottom: 133px;
+   position: relative;
+   font-family:'Georgia';
+ }
+ .business_pc .business_pc_bg{
+   width: 100%;
+   height: auto;
+ }
+ .business_content{
+     position: absolute;
+     top:0;
+     left:0;
+     bottom: 0;
+     right:0;
+ }
+ .business_container{
+     padding: 50px 0 65px 0;
+ }
+ .business_title{
+     font-size: 51px;
+     color: #FFFFFF;
+     padding-bottom: 30px;
+     line-height: 33px;
+ }
+ .business_list{
+     padding: 48px 12px 12px 12px;
+    background:rgba(255,255,255,1);
+    box-shadow:6px 10px 35px 0px rgba(0, 0, 0, 0.15);
+    min-height: 515px;
+    text-align: center;
+ }
+ .business_list>img{
+     width: 129px;
+     height: 100px;
+ }
+ .business_list .business_list_title{
+     margin-top: 34px;
+     font-size: 21px;
+     line-height: 34px;
+     color: #333333;
+     font-weight: bold;
+     margin-bottom: 40px;
+ }
+ .business_list>p{
+     font-size: 21px;
+     line-height: 32px;
+     color: #333333;
+ }
+ .leager_ship{
+     margin-bottom: 260px;
+     position: relative;
+     font-family:'Georgia';
+ }
+ .leager_ship_bg{
+     width: 100%;
+     height: auto;
+ }
+ .leager_content{
+     position: absolute;
+     top:0;
+     bottom: 0;
+     left:0;
+     right: 0;
+ }
+.leager_title{
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 18px;
+}
+ .leager_row{
+     margin-right: 108px;
+     background:rgba(255,255,255,1);
+box-shadow:2px 3px 17px 2px rgba(0, 0, 0, 0.15);
+     padding: 13.5px;
+     margin-left: 0;
+ }
+ .leager_row_second{
+     margin-left: 108px;
+     margin-right: 0;
+     margin-top: 49px;
+ }
+ .leager_item{
+    text-align: center;
+    padding-right: 5px;
+ }
+ .leager_item .leager_item_title{
+     font-size: 30px;
+     font-weight: bold;
+     padding: 12px 0 10px 0;
+ }
+ .leager_item>p{
+     padding: 0 19px;
+     color: #666666;
+     font-size: 21px;
+     line-height: 32px;
+ }

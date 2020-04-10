@@ -1,0 +1,105 @@
+@media(max-width:991px){
+    /* 文件下载样式 */
+    .file_d_m{
+        padding: 0 15px;
+    }
+    .file_d.file_d_m .title{
+        font-size: 18px;
+        margin: 40px 0 25px;
+    }
+    .file_d_m .files{
+        margin-bottom: 30px;
+    }
+  .file_d_m .files_item{
+      max-height:auto;
+      margin-bottom: 10px;
+      padding: 15px 10px;
+      font-size: 15px;
+      line-height: 30px;
+  }
+  .file_d_m .files_item>img{
+     width: 15px;
+     height: 20px;
+  }
+
+
+  /* 图片下载页样式 */
+
+  .pictures_m{
+      padding: 0 15px;
+  }
+.pictures_m.pictures .title{
+    margin: 40px 0 25px 0;
+    font-size: 18px;
+    text-align: center;
+}
+.pictures_m .pictures_list{
+    margin-bottom: 15px;
+}
+.pictures_m .pictures_list .list{
+    background:rgba(255,255,255,1);
+    box-shadow:4px 7px 7px 1px rgba(51,51,51,0.15);
+margin-bottom: 25px;
+}
+
+.pictures_m .pictures_list .list>p{
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+}
+
+
+/* 文件下载样式 */
+.file_d{
+    font-family: Georgia;
+    color: #333333;
+}
+.file_d .title{
+    margin: 104px 0 52px 0;
+    font-size: 37px;
+    font-weight: bold;
+    text-align: center;
+}
+.files{
+   margin-bottom: 88px;
+}
+.files_item{
+    max-height:158px;
+    background:rgba(255,255,255,1);
+    box-shadow:3px 5px 11px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 18px;
+    padding: 35px 45px;
+    font-size: 26px;
+    line-height: 50px;
+    position: relative;
+}
+.files_item>img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* 图片下载页样式 */
+.pictures .title{
+    margin: 105px 0 50px 0;
+    font-size: 37px;
+    font-weight: bold;
+}
+.pictures_list{
+    margin-bottom: 100px;
+}
+.pictures_list .list{
+    background:rgba(255,255,255,1);
+box-shadow:5px 9px 10px 1px rgba(51,51,51,0.15);
+margin-bottom: 52px;
+}
+.pictures_list .list>img{
+    width: 100%;
+    height: auto;
+}
+
+.pictures_list .list>p{
+    padding: 26px 0;
+    font-size: 21px;
+}

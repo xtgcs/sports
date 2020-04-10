@@ -9,20 +9,16 @@
 } */
 
 @media(max-width:991px) {
-
-    /* .container{
-        width: 970px;
-    } */
     .home {
         padding-top: 50px;
     }
 
-    .swiper-slide .banner_text {
+    .mobile .swiper-slide .banner_text {
         font-size: 18px;
         padding: 0 15px;
     }
 
-    .slider_content {
+    .mobile .slider_content {
         left: 15px;
         bottom: 35px;
     }
@@ -31,13 +27,13 @@
         padding: 0 15px;
     }
 
-    .businesses_top {
+    .mobile .businesses_top {
         padding: 39px 0 28px 0;
         width: 73%;
         margin: 0 auto;
     }
 
-    .businesses_top .title {
+    .mobile .businesses_top .title {
         color: #333333;
         font-size: 18px;
         font-weight: bold;
@@ -45,32 +41,33 @@
         text-align: center;
     }
 
-    .businesses_top p {
+    .mobile .businesses_top p {
         font-size: 15px;
         color: #333333;
     }
 
-    .businesses_content {
+    .mobile .businesses_content {
         background-color: #065383;
         padding: 25px 35px;
         color: #fff;
     }
 
-    .businesses_content .item {
+    .mobile .businesses_content .item {
         margin-bottom: 27px;
     }
 
-    .businesses_content .item:last-child {
+    .mobile .businesses_content .item:last-child {
         margin-bottom: 0;
     }
 
-    .businesses_content .item .content_title {
+    .mobile .businesses_content .item .content_title {
         font-weight: bold;
         font-size: 15px;
         margin-bottom: 17px;
+        color: #fff;
     }
 
-    .businesses_content .item>p {
+    .mobile .businesses_content .item>p {
         font-size: 15px;
     }
 
@@ -79,13 +76,11 @@
         padding: 40px 15px 0 15px;
 
     }
-
-    .news_title {
+    .mobile .news_title {
         padding-bottom: 24px;
         text-align: center;
         font-weight: bold;
     }
-
     .news_title .title {
         font-size: 18px;
     }
@@ -95,30 +90,47 @@
         margin-top: 11px;
     }
 
-    .news_list {
+    .mobile .news_list {
         color: #333333;
         background: rgba(255, 255, 255, 1);
         box-shadow: 6px 10px 11px 1px rgba(51, 51, 51, 0.15);
         margin-bottom: 25px;
     }
-
-    .news_list>img {
+    .mobile .news_list:last-child{
+       margin-bottom: 0;
+   }
+   .mobile .news_list>img {
         width: 100%;
         height: auto;
     }
 
-    .news_list .news_desc {
+    .mobile .news_list .news_desc {
         padding: 20px 10px;
         font-size: 15px;
         line-height: 22.5px;
         text-transform: uppercase;
     }
 
-    .news_list .news_time {
+    .mobile .news_list .news_time {
         text-align: right;
         font-size: 12px;
         padding-bottom: 15px;
         padding-right: 11px;
+    }
+    /* companies模块 */
+    .companies.mobile{
+        padding: 39px 15px 20px 15px;
+        margin-bottom: 0;
+    }
+    .companies.mobile .companies_title{
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .mobile .companies_logos{
+        margin: 0;
+    }
+    .companies_logo{
+        margin-bottom: 15px;
     }
 }
 
@@ -204,7 +216,10 @@
     margin-bottom: 25px;
     color: #0E5283;
 }
-
+.businesses_pc_img>img{
+    width: 100%;
+    height: auto;
+}
 .businesses_content .item>p {
     font-size: 21px;
 }
@@ -255,4 +270,56 @@
 .news_pc_list{
     position: relative;
     top:-52px;
+}
+.news_list {
+    color: #333333;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 6px 10px 11px 1px rgba(51, 51, 51, 0.15);
+    margin-bottom: 54px;
+}
+
+.news_list>img {
+    width: 100%;
+    height: auto;
+}
+
+.news_list .news_desc {
+    padding: 27px 37px;
+    font-size: 22px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.news_list .news_time {
+    text-align: left;
+    font-size: 22px;
+    padding-bottom: 22px;
+    padding-left: 36px;
+}
+.news_list.four .news_desc,.news_list.three .news_desc{
+    padding: 27px 0 25px 0;
+}
+.news_list.four .news_time,.news_list.three .news_time{
+    padding-left: 0;
+}
+
+.companies{
+    padding: 10px 0;
+    padding-bottom: 0;
+    margin-bottom: 80px;
+}
+.companies_title{
+    font-size: 50px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.companies img{
+  width: 100%;
+  height: auto;
+}
+
+.companies_logo{
+    padding-left: 0;
+    padding-right: 0;
 }

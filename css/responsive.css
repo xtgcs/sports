@@ -797,9 +797,7 @@
         top: 30px;
     }
 
-    .banner {
-        padding-top: 100px;
-    }
+  
 
     .topclass .classess p {
         padding-bottom: 20px;
@@ -3791,9 +3789,7 @@
 }
 
 @media (max-width:484px) {
-    .banner {
-        background-position: inherit;
-    }
+ 
 
     .bodrs {
         padding-right: 0;

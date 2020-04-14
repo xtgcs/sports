@@ -393,10 +393,15 @@ margin-bottom: 52px;
 }
 .releases .more{
     cursor: pointer;
+    color: #333333;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: Georgia;
 }
 .releases .more a{
     color: #333333;
     text-decoration: none;
+    cursor: pointer;
 }
 .releases .title>span{
     text-transform: uppercase;

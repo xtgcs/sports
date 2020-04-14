@@ -229,8 +229,10 @@
 .businesses_content .item {
     margin-bottom: 68px;
 }
-.businesses_content .item a{
-    text-decoration: none;
+.businesses_content .item a:hover{
+    text-decoration: underline;
+    color: #005BAC;
+    cursor: pointer;
 }
 .businesses_content .item:last-child {
     margin-bottom: 0;

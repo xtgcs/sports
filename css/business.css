@@ -74,6 +74,7 @@
 .triathlon .item ,.running .item{
     padding-left: 0;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 .triathlon .item_img,.running .item_img{
     box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.15);
@@ -90,6 +91,7 @@
 .companies_container .title{
    margin-bottom: 0;
    margin-top: 105px;
+   line-height: 43px;
 }
 .companies_logos{
     margin-top: 53px;

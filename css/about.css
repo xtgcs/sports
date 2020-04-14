@@ -76,6 +76,7 @@ a{
     .business_m .swiper-button-prev,  .business_m .swiper-button-next{
         width: 8px;
         height: 15px;
+        margin-top: 0;
     }
     .business_m .swiper-button-prev{
         left: -15px;
@@ -125,9 +126,9 @@ a{
     }
 }
 .company{
-    padding: 120px 0 58px 0;
+    padding: 105px 0 54px 0;
     color: #333333;
-    font-family:'Georgia';
+    font-family:Georgia;
 }
 .company_img{
     padding-left: 0;
@@ -144,31 +145,31 @@ a{
     overflow: hidden;
 }
  .company_title {
-   font-size: 50px;
+   font-size: 44px;
    margin-bottom: 30px;
    line-height: 50px;
  }
  .company_content_box p{
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 21px;
+    line-height: 32px;
  }
  .company_content{
-     font-size: 24px;
-     line-height: 36px;
+     font-size: 21px;
+     line-height: 32px;
      overflow: hidden;
      padding-left: 0;
      padding-right: 0;
  }
  .company_content_more{
-     font-size: 24px;
-     padding-top: 30px;
+     font-size: 21px;
+     padding-top: 27px;
      text-align: right;
      cursor: pointer;
  }
  .about_icon{
-     width: 18px;
-     height: 16px;
-     margin-left:13px;
+     width: 16px;
+     height: 14px;
+     margin-left:11px;
  }
 
 /* PC Business模块 */

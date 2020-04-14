@@ -655,6 +655,7 @@ $(function() {
     try {
         var ZoomImage = jQuery('.zoom, .zoom-image');
         ZoomImage.magnificPopup({
+            delegate: 'a', // c
             type: 'image',
             gallery: {
                 enabled: true

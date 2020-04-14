@@ -548,9 +548,12 @@
     .header1 .tt-header .main-nav>ul>li.active {
         background: transparent;
     }
-
+    .header1 .tt-header .main-nav>ul>li:hover span,
+    .header1 .tt-header .main-nav>ul>li.active span{
+        border-bottom: 2px solid #005BAC;
+    }
     .header1 .tt-header .main-nav>ul>li>a {
-        padding: 35px 0 5px 90px;
+        padding: 35px 0 2px 90px;
     }
 
     .header1 .tt-header .main-nav>ul>li:first-child>a {

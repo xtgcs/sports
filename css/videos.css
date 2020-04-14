@@ -12,9 +12,11 @@
       margin: 0;
   }
   .mobile .videos .video_title{
-      font-size: 15px;
-      padding: 15px;
-      box-shadow:3.5px 5.5px 5.5px 1px rgba(51,51,51,0.15);
+	  color: #FFFFFF;
+      font-size: 12px;
+      padding: 11px 10px;
+	  box-shadow:3.5px 5.5px 5.5px 1px rgba(51,51,51,0.15);
+	  background:linear-gradient(90deg,rgba(0,91,172,1) 0%,rgba(0,91,172,0) 100%);
   }
   .mobile .videos .item{
       margin-bottom: 25px;
@@ -25,6 +27,7 @@
     padding-bottom: 52px;
     font-size: 44px;
     color: #333;
+    font-weight: bold;
 }
 .videos{
    margin-bottom: 104px;

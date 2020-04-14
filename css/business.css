@@ -13,6 +13,7 @@
      }
      .mass_m.mass_container p{
          font-size: 15px;
+         text-align: justify;
      }
      .mass_m .item_box{
          margin: 0;
@@ -63,9 +64,11 @@
 .mass_container .title{
   font-size: 44px;
   margin-bottom: 50px;
+  font-weight: Bold;
 }
 .mass_container p{
     font-size: 21px;
+    word-break:break-all;
 }
 .triathlon img , .running img{
    width: 100%;

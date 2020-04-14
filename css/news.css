@@ -25,7 +25,7 @@
   /* 图片下载页样式 */
 
   .pictures_m{
-      padding: 0 15px;
+      padding: 0 24.5px;
   }
 .pictures_m.pictures .title{
     margin: 40px 0 25px 0;
@@ -40,7 +40,9 @@
     box-shadow:4px 7px 7px 1px rgba(51,51,51,0.15);
 margin-bottom: 25px;
 }
-
+.pictures_m .pictures_list .pictures_item{
+    padding:0 5.5px;
+}
 .pictures_m .pictures_list .list>p{
     padding: 10px 0;
     font-size: 12px;
@@ -50,7 +52,7 @@ margin-bottom: 25px;
 .mobile.banner.news{
     padding-top: 131px;
     padding-bottom: 35px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 .mobile.news .banner_title{
   font-size: 18px;
@@ -67,6 +69,15 @@ margin-bottom: 25px;
     font-size: 18px;
     text-align: center;
 }
+.mobile.releases .title span{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.mobile.releases .title .more span{
+    font-size: 12px;
+    color: #969696;
+    text-transform: uppercase;
+}
 .mobile.news_wrap .title{
     margin-top: 0;
 }
@@ -75,6 +86,11 @@ margin-bottom: 25px;
 }
 .mobile.releases .title .pull-right{
     float: none !important;
+}
+.mobile.releases .title .pull-right img{
+    width: 7px;
+    height: 8px;
+    vertical-align: inherit;
 }
 .mobile.releases .title .more>span{
     color: #969696;
@@ -171,6 +187,7 @@ margin-bottom: 25px;
     line-height: 18px;
     font-size: 18px;
     color: #333;
+    text-transform: capitalize;
 }
 
 .mobile.video_bg .rect{
@@ -181,14 +198,16 @@ margin-bottom: 25px;
 }
 .mobile.video_bg .more{
     padding-top: 15px;
+
 }
-.mobile.video_bg .more>span{
+.mobile.video_bg .more span{
     color: #969696;
     font-size: 12px;
 }
-.mobile.video_bg .more img{
+.mobile.video_bg .more  picture img{
   width: 7px;
   height: 8px;
+  margin-left: 0;
 }
 .mobile.videos{
     margin-top: 25px;
@@ -214,6 +233,7 @@ margin-bottom: 25px;
     text-align: center;
 }
 .mobile.mediatool .title{
+    text-transform: capitalize;
     font-size: 18px;
     text-align: center;
     padding-bottom: 24px;
@@ -223,9 +243,20 @@ margin-bottom: 25px;
     font-size: 12px;
     color: #969696;
 }
+.mobile .pictures .more span{
+    font-size: 12px;
+    color: #969696;
+    text-transform: uppercase;
+}
+.mobile .pictures .more img{
+    width: 7px;
+    height: 8px;
+}
 .mobile .pictures .pictures_title{
     float: none !important;
     font-size: 15px;
+    text-transform: capitalize;
+
 }
 .mobile .pictures .more>span{
     text-transform: uppercase;
@@ -317,8 +348,9 @@ font-size: 15px;
     background:rgba(255,255,255,1);
 box-shadow:5px 9px 10px 1px rgba(51,51,51,0.15);
 margin-bottom: 52px;
+
 }
-.pictures_list .list>img{
+.pictures_list .list img{
     width: 100%;
     height: auto;
 }
@@ -382,6 +414,11 @@ margin-bottom: 52px;
     width: auto;
     cursor: pointer;
 }
+
+.releases_pc .pc_item img{
+    width: 100%;
+    height: auto;
+}
 .releases_pc .pc_item .desc{
     /* width: auto; */
 }
@@ -398,6 +435,11 @@ margin-bottom: 52px;
     text-transform: uppercase;
     font-family: Georgia;
 }
+.releases .more img{
+    width: 16px;
+    height: 16px;
+    vertical-align: initial;
+}
 .releases .more a{
     color: #333333;
     text-decoration: none;
@@ -405,6 +447,7 @@ margin-bottom: 52px;
 }
 .releases .title>span{
     text-transform: uppercase;
+    font-weight: bold;
 }
 .releases .item{
     position: relative;
@@ -412,7 +455,7 @@ margin-bottom: 52px;
     padding-left: 0;
     margin: 0;
 }
-.releases .item>img{
+.releases .item img{
     width: 100%;
     height: auto;
 }
@@ -479,6 +522,7 @@ width: auto;
     font-size: 21px;
     line-height: 25px;
     padding: 0 20px;
+    font-weight: bold;
 }
 .news_info .time{
     font-size: 21px;
@@ -590,6 +634,7 @@ font-family:Georgia;
 font-weight:bold;
 color: #333333;
 padding-bottom: 35px;
+text-transform: uppercase;
 }
 .pictures{
     margin-bottom: 24px;
@@ -625,7 +670,7 @@ padding-top: 10px;
     margin-left: -7.5px;
     margin-right: -7.5px;
 }
-.mediatool .item_box .item>img{
+.mediatool .item_box .item img{
     width: 100%;
     height: auto;
 }

@@ -20,6 +20,7 @@
     .mobile .news_nav .item.active{
         color: #005BAB;
         font-size: 15px;
+        background-color: #FFF;
     }
     .mobile .news_nav .item span{
         margin: 0 10px;
@@ -30,6 +31,7 @@
        line-height: 40px;
        display: inline-block;
     }
+
     .new_list_box{
         padding:  0 15px;
     }
@@ -67,10 +69,12 @@
     color: #005BAB;
     cursor: pointer;
     padding: 0 5px;
+    font-weight: bold;
 }
 .news_nav .item.active{
     background:rgba(0,91,171,1);
     color: #FFF;
+    font-weight: bold;
 }
 .new_list .list{
     background:rgba(255,255,255,1);

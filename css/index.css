@@ -53,6 +53,7 @@
     .mobile .businesses_top p {
         font-size: 15px;
         color: #333333;
+        text-align:justify
     }
 
     .mobile .businesses_content {
@@ -78,6 +79,7 @@
 
     .mobile .businesses_content .item>p {
         font-size: 15px;
+        text-align:justify;
     }
 
     /* 新闻模块 */
@@ -187,10 +189,12 @@
 }
 
 .more_news_btn {
+    font-size: 23px;
     margin-top: 36px;
     width: 500px;
     background: linear-gradient(90deg, rgba(0, 91, 172, 1) 0%, rgba(0, 91, 172, 0) 100%);
 }
+
 .more_news_btn img{
     width: 17px;
     height: 30px;
@@ -211,6 +215,7 @@
     font-size: 44px;
     line-height: 32px;
     padding-bottom: 26px;
+    font-weight: bold;
 }
 
 .businesses_pc .desc{
@@ -317,21 +322,21 @@
     cursor: pointer;
 }
 
-.news_list>img {
+.news_list img {
     width: 100%;
     height: auto;
 }
 
 .news_list .news_desc {
     padding: 27px 37px;
-    font-size: 22px;
+    font-size: 21px;
     line-height: 36px;
     text-transform: uppercase;
 }
 
 .news_list .news_time {
     text-align: left;
-    font-size: 22px;
+    font-size: 21px;
     padding-bottom: 22px;
     padding-left: 36px;
 }
@@ -352,6 +357,7 @@
     color: #333333;
     text-align: center;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 .companies img{
   width: 100%;
@@ -372,7 +378,7 @@
 	overflow: hidden;
 }
 
-.image-opacity-on-hover img,
+.'' img,
 .image-zoom-on-hover img {
 	transition: opacity 300ms ease-out, transform 300ms ease-out, filter 300ms ease-out;
 	-moz-transition: opacity 300ms ease-out, -moz-transform 300ms ease-out, -moz-filter 300ms ease-out;
@@ -385,11 +391,11 @@
 	transform: scale(1.1);
 }
 
-.image-opacity-on-hover:hover img {
+.'':hover img {
 	opacity: 0.50;
 	filter: alpha(opacity=50);
 }
 
-.image-opacity-on-hover {
+.'' {
 	background: #1e2434;
 }

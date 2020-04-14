@@ -24,6 +24,7 @@
        bottom: 0;
        left: 0;
        right: 0;
+       background-color: rgba(0, 126, 238, 0.3);
        z-index: 1000;
     }
     .footer_bottom .request span{
@@ -33,6 +34,9 @@
    .footer_bottom .result{
         text-align: right;
         padding-top: 0;
+    }
+    .footer_bottom .result span{
+        vertical-align: middle;
     }
     .footer_bottom_left{
         padding-right: 0;

@@ -657,6 +657,8 @@ $(function() {
         ZoomImage.magnificPopup({
             delegate: 'a', // c
             type: 'image',
+            closeBtnInside: false,   // 显示关闭按钮
+            closeOnBgClick: true, // 点击遮罩透明背景关闭弹出层
             gallery: {
                 enabled: true
             }

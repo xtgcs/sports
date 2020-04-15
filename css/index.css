@@ -56,7 +56,7 @@
         font-size: 15px;
         color: #333333;
         text-align: justify;
-        word-break: break-all;
+      
     }
 
     .mobile .businesses_content {
@@ -80,13 +80,13 @@
         font-size: 15px;
         margin-bottom: 17px;
         color: #fff;
-        word-break: break-all;
+      
     }
 
     .mobile .businesses_content .item>p {
         font-size: 15px;
         text-align: justify;
-        word-break: break-all;
+      
     }
 
     /* 新闻模块 */
@@ -328,7 +328,7 @@
 
 .businesses_content .item>p {
     font-size: 21px;
-    word-break: break-all;
+  
 }
 
 .news_pc_wrap {
@@ -381,9 +381,12 @@
     text-transform: uppercase;
     cursor: pointer;
 }
-
-.news_container .more_box>span {
+.news_container .more_box a{
+    text-decoration: none;
+}
+.news_container .more_box span {
     vertical-align: middle;
+    color: #FFFFFF;
 }
 
 .news_container .more_box>img {
@@ -427,6 +430,7 @@
     font-size: 21px;
     padding-bottom: 22px;
     padding-left: 36px;
+    color: #333333;
 }
 
 .news_list.four .news_desc,

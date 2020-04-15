@@ -10,11 +10,12 @@ p {
 .icon{
 	width: 26px;
 	height: 26px;
-	background-size: contain;
+	background-size: cover;
 	background-position: center;
 	display: block;
 	background-repeat: no-repeat;
 }
+
 .linkedin{
 	background-image: url(../images/linkeIn.png);
 }

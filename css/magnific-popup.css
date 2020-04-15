@@ -47,9 +47,9 @@
   .mfp-wrap .mfp-arrow{
     margin-top: -17px;
   }
-  .mfp-content  .mfp-close{
+  /* .mfp-content  .mfp-close{
     top:-20px;
-  }
+  } */
 }
 
 .mfp-bg {
@@ -182,16 +182,27 @@
   display: none;
 }
 
-button.mfp-close {
+.mfp-content .close_icon{
+  width: 28px;
+  height: 28px;
+  background: url(../images/close.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  bottom: -50px;
+  cursor: pointer;
+}
+/* button.mfp-close {
   overflow: visible;
   cursor: pointer;
   background: transparent;
   border: 0;
   -webkit-appearance: none;
-  /* display: none; */
+  display: none;
   padding: 0;
   z-index: 1046;
-}
+  
+} */
 
 
 button.mfp-arrow {
@@ -201,6 +212,7 @@ button.mfp-arrow {
   display: block;
   padding: 0;
   z-index: 9999;
+  display: none;
 }
 
 button::-moz-focus-inner {
@@ -208,13 +220,14 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-.mfp-close {
+/* .mfp-close {
   width: 44px;
   height: 44px;
   line-height: 44px;
   position: absolute;
-  right: 0;
-  top: 0;
+  left:50%;
+  top: 50%;
+  transform: translateX(-50%);
   text-decoration: none;
   text-align: center;
   opacity: 0.65;
@@ -223,9 +236,10 @@ button::-moz-focus-inner {
   font-style: normal;
   font-size: 28px;
   font-family: Arial, Baskerville, monospace;
-}
 
-body.admin-bar .mfp-close {
+} */
+
+/* body.admin-bar .mfp-close {
   top: -7%;
 }
 
@@ -248,7 +262,7 @@ body.admin-bar .mfp-close {
   right: -4%;
   text-align: right;
   width: 100%;
-}
+} */
 
 .mfp-counter {
   color: transparent;
@@ -507,7 +521,7 @@ screen and (max-height: 300px) {
     top: 3px;
   }
 
-  .mfp-img-mobile .mfp-close {
+  /* .mfp-img-mobile .mfp-close {
     top: 0;
     right: 0;
     width: 35px;
@@ -517,7 +531,7 @@ screen and (max-height: 300px) {
     position: fixed;
     text-align: center;
     padding: 0;
-  }
+  } */
 
   .mfp-img-mobile .mfp-figure small {
     display: inline;
@@ -716,4 +730,14 @@ screen and (max-height: 300px) {
 button{
   outline: none;
   border: none;
+}
+
+.close_icon{
+  width: 56px;
+  height: 56px;
+  background: url(../images/close.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  bottom: -89px;
 }

@@ -257,7 +257,7 @@
 					_mfpOn(MARKUP_PARSE_EVENT, function (e, template, values, item) {
 						values.close_replaceWith = _getCloseBtn(item.type);
 					});
-					_wrapClasses += ' mfp-close-btn-in';
+					_wrapClasses += ' close_icon-btn-in';
 				}
 			}
 
@@ -542,7 +542,7 @@
 				if (mfp.st.showCloseBtn && mfp.st.closeBtnInside &&
 					mfp.currTemplate[type] === true) {
 					// if there is no markup, we just append close button element inside
-					if (!mfp.content.find('.mfp-close').length) {
+					if (!mfp.content.find('.close_icon').length) {
 						mfp.content.append(_getCloseBtn());
 					}
 				} else {
@@ -724,7 +724,7 @@
 			} else {
 
 				// We close the popup if click is on close button or on preloader. Or if there is no content.
-				if (!mfp.content || $(target).hasClass('mfp-close') || (mfp.preloader && target === mfp.preloader[0])) {
+				if (!mfp.content || $(target).hasClass('close_icon') || (mfp.preloader && target === mfp.preloader[0])) {
 					return true;
 				}
 
@@ -893,7 +893,7 @@
 
 			overflowY: 'auto',
 
-			closeMarkup: '<button title="%title%" type="button" class="mfp-close">&#215;</button>',
+			closeMarkup: '<button title="%title%" type="button" class="close_icon">&#215;</button>',
 
 			tClose: 'Close (Esc)',
 
@@ -1130,7 +1130,7 @@
 
 		options: {
 			markup: '<div class="mfp-figure">' +
-				'<div class="mfp-close"></div>' +
+				'<div class="close_icon"></div>' +
 				'<figure>' +
 				'<div class="mfp-img"></div>' +
 				'<figcaption>' +
@@ -1570,7 +1570,7 @@
 
 		options: {
 			markup: '<div class="mfp-iframe-scaler">' +
-				'<div class="mfp-close"></div>' +
+				'<div class="close_icon"></div>' +
 				'<iframe class="mfp-iframe" src="//about:blank" frameborder="0" allowfullscreen></iframe>' +
 				'</div>',
 

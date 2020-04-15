@@ -731,7 +731,7 @@
     }
 
     .header1 .tt-header .main-nav>ul>li>a {
-        padding: 30px 12px;
+        padding: 30px 12px 2px 44px;
     }
 
     .header1 .tt-header.stick .main-nav>ul>li>a {
@@ -1643,15 +1643,14 @@
 	}
 	.tt-header .main-nav>ul>li.login>a{
 		display: inline-block;
-		width: 20px;
-		height: 20px;
-		padding: 0;
+        width: 26px;
+        height: 26px;
+        padding: 0;
 	}
 	.tt-header .main-nav>ul>li.login>a:first-child{
 		margin-right: 20px;
 	}
-    .tt-header .main-nav>ul>li>a,
-    .tt-header .main-nav>ul>li>a:focus {
+    .tt-header .main-nav>ul>li>a {
         display: block;
         position: relative;
         width: 750px;
@@ -1662,8 +1661,19 @@
 		margin: 0 auto;
 		text-align: center;
     }
+    /* .tt-header .main-nav>ul>li>a:focus {
+        display: block;
+        position: relative;
+        width: 750px;
+        font-size: 30px;
+        line-height: 20px;
+        color: #fff;
+        padding: 19px 0;
+		margin: 0 auto;
+		text-align: center;
+    } */
 
-    .tt-header .main-nav>ul>li>a:before,
+    /* .tt-header .main-nav>ul>li>a:before,
     .tt-header .main-nav>ul>li>a:after {
         content: '';
         display: block;
@@ -1681,7 +1691,7 @@
     .tt-header .main-nav>ul>li>a:after {
         left: auto;
         right: -500px;
-    }
+    } */
 
     .tt-header .main-nav>ul>li>a:hover,
     .tt-header .main-nav>ul>li.active>a,

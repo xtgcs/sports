@@ -1,6 +1,5 @@
 
 
-var closeBtn;
   $(".video_link").click(function() {
     // $('#modal').show().get(0).offsetHeight;
     // $('#page-wrapper').addClass('modal-mode');
@@ -13,7 +12,6 @@ var closeBtn;
         myPlayer.src(videoUrl);
         myPlayer.load(videoUrl);
         myPlayer.play();
-        closeBtn =   $('.mfp-close');
     });
     // $('.modal_hide').remove();
 
@@ -34,4 +32,11 @@ $('.open-popup-link').magnificPopup({
     }
   
 })
+
+var magnificPopup = $.magnificPopup.instance; 
+$('.close_icon').click(function () { 
+    magnificPopup.close();
+})
+
+
 

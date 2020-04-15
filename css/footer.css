@@ -60,6 +60,33 @@
         height: 20px;
         line-height: 20px;
     }
+
+    .mobile.white-popup{
+        position: absolute;
+        background-color: #fff;
+        width: 345px;
+        height: 530px;
+        top:50%;
+        left: 50%;
+        transform: translate3d(-50%,-50%,0);
+    }
+    .mobile .agreement{
+        color: #333333;
+        padding: 15px;
+        font-size: 15px;
+        text-align: justify;
+        line-height: 20px;
+    }
+    .mobile .agreement_title{
+        font-weight: bold;
+    }
+    .mobile .agreement_content{
+        overflow-y:scroll;
+        height: 485px;
+    }
+   .mobile .agreement_content p{
+        padding-bottom: 10px;
+    }
 }
 
 /* 底部 */
@@ -88,6 +115,9 @@
     font-family: Georgia;
     text-align: center;
     
+}
+.footer-text p a{
+    color: #FFFFFF;
 }
 .footer-text p:last-child{
    text-decoration: underline;
@@ -148,4 +178,30 @@
     border: 2px solid #FFFFFF;
     margin-left: 13px;
     box-shadow: 3px 5px 8px 0px rgba(0, 0, 0, 0.15);
+}
+.white-popup{
+    position: absolute;
+    background-color: #fff;
+    width: 1050px;
+    height: 750px;
+    top:50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+}
+.agreement{
+    color: #333333;
+    padding: 65px;
+    font-size: 21px;
+    text-align: justify;
+    line-height: 34px;
+}
+.agreement_title{
+    font-weight: bold;
+}
+.agreement_content{
+    overflow-y:scroll;
+    height: 600px;
+}
+.agreement_content p{
+    padding-bottom: 20px;
 }

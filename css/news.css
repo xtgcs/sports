@@ -501,7 +501,7 @@
 
 .releases_pc .pc_item {
     padding: 0;
-    width: auto;
+    width: 100%;
     cursor: pointer;
 }
 
@@ -857,7 +857,17 @@
     transform: translate3d(-50%,-50%,0); */
     width: 938px;
     margin: 0 auto;
+    overflow: hidden;
     /* height: 646px */
+}
+.close_icon{
+    width: 56px;
+    height: 56px;
+    background: url(../images/close.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    bottom: -89px;
 }
 .modal_video{
     position: absolute;

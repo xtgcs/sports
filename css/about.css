@@ -165,7 +165,7 @@ a:hover{
     }
 
 
-.mobile .white-popup-leadership {
+ #test-popup.white-popup-leadership.mobile{
     position: absolute;
     background-color: #fff;
     width: 345px;
@@ -395,7 +395,7 @@ a:hover{
 
 
 
-/* .white-popup-leadership {
+#test-popup.white-popup-leadership {
     position: absolute;
     background-color: #fff;
     width: 1050px;
@@ -403,7 +403,7 @@ a:hover{
     top: 50%;
     left: 50%;
     transform: translate3d(-50%, -50%, 0);
-} */
+}
 
 .leadership {
     color: #333333;

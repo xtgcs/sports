@@ -478,17 +478,16 @@
     margin-top: 35px;
     cursor: pointer;
 }
-
-.news .banner_btn a img {
-    width: 17px;
-    height: 30px;
-}
-
-.news .banner_btn a span {
+.news .banner_btn span {
     font-size: 23px;
     font-weight: bold;
     line-height: 23px;
     color: #fff;
+    padding-top: 3.5px;
+}
+.news .banner_btn img{
+    width: 17px;
+    height: 30px;
 }
 
 .releases {

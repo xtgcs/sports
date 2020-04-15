@@ -61,7 +61,16 @@
         line-height: 20px;
     }
 
-    .mobile.white-popup{
+    /* .mobile.white-popup{
+        position: absolute;
+        background-color: #fff;
+        width: 345px;
+        height: 530px;
+        top:50%;
+        left: 50%;
+        transform: translate3d(-50%,-50%,0);
+    } */
+    .mobile.n_popup.white-popup{
         position: absolute;
         background-color: #fff;
         width: 345px;
@@ -179,7 +188,8 @@
     margin-left: 13px;
     box-shadow: 3px 5px 8px 0px rgba(0, 0, 0, 0.15);
 }
-.white-popup{
+
+.n_popup.white-popup{
     position: absolute;
     background-color: #fff;
     width: 1050px;
@@ -188,6 +198,15 @@
     left: 50%;
     transform: translate3d(-50%,-50%,0);
 }
+/* .white-popup{
+    position: absolute;
+    background-color: #fff;
+    width: 1050px;
+    height: 750px;
+    top:50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+} */
 .agreement{
     color: #333333;
     padding: 65px;

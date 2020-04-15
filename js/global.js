@@ -658,7 +658,7 @@ $(function() {
             delegate: 'a', // c
             type: 'image',
             closeBtnInside: false,   // 显示关闭按钮
-            closeOnBgClick: true, // 点击遮罩透明背景关闭弹出层
+            closeOnBgClick: false, // 点击遮罩透明背景关闭弹出层
             gallery: {
                 enabled: true
             }
@@ -679,4 +679,15 @@ $(function() {
         $('.footer_bottom').hide();
         $('.footer_h').hide();
     })
+
+    //  about页面点击更多
+    $('.company_content_more').click(function () { 
+        console.log('查看更多');
+        $('.company_content_box').css({'max-height':'auto','overflow':'auto'});
+    })
+    $('.company_m_more').click(function () { 
+        console.log('查看更多');
+        $('.company_m_content').css({'height':'auto','overflow':'auto'});
+    })
+
 });

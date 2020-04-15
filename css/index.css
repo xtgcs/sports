@@ -9,9 +9,9 @@
 } */
 
 @media(max-width:991px) {
-    .home {
+    /* .home {
         padding-top: 50px;
-    }
+    } */
 
     .mobile .swiper-slide .banner_text {
         font-size: 18px;

@@ -68,7 +68,7 @@
 }
 .mass_container p{
     font-size: 21px;
-    word-break:break-all;
+    
 }
 .triathlon img , .running img{
    width: 100%;
@@ -99,3 +99,7 @@
 .companies_logos{
     margin-top: 53px;
 }
+/* .footer {
+    position: absolute;
+    bottom: 0;
+} */

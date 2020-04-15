@@ -24,7 +24,7 @@ a{
         max-height: 150px;
         overflow: hidden;
         text-align:justify;
-        word-break:break-all;
+        
     }
     .company_m_more{
         margin-top: 15px;
@@ -72,12 +72,14 @@ a{
         font-weight: bold;
         line-height: 16px;
         padding-left: 10px;
+        text-align: left;
+        width: 100%;
     }
     .business_m_bg p{
         font-size: 15px;
         color: #FFFFFF;
         text-align: center;
-        word-break:break-all;
+        
     }
 
     .business_m .swiper-button-prev,  .business_m .swiper-button-next{
@@ -216,12 +218,9 @@ a{
     min-height: 515px;
     text-align: center;
  }
- .business_list a:hover{
-     text-decoration: underline;
-     text-decoration-color:#005BAC;
-    
-    
- }
+a:hover{
+    text-decoration: none;
+}
  .business_list>img{
      width: 129px;
      height: 100px;
@@ -234,6 +233,10 @@ a{
      font-weight: bold;
      margin-bottom: 40px;
  }
+.business_container a:hover .business_list_title{
+    text-decoration: underline;
+    text-decoration-color:#005BAC;
+}
  .business_list>p{
      font-size: 21px;
      line-height: 32px;

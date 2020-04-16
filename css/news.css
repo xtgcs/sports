@@ -846,7 +846,7 @@
     right: 15px;
 }
 
-.white-popup{
+.video-popup.white-popup{
     /* position: relative; */
     /* position: absolute;
     top:0%;
@@ -859,7 +859,7 @@
     overflow: hidden;
     /* height: 646px */
 }
-.close_icon{
+/* .close_icon{
     width: 56px;
     height: 56px;
     background: url(../images/close.png) no-repeat;
@@ -867,7 +867,7 @@
     position: absolute;
     left: 50%;
     bottom: -89px;
-}
+} */
 .modal_video{
     position: absolute;
     top: 33.333%;

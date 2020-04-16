@@ -50,6 +50,17 @@
   /* .mfp-content  .mfp-close{
     top:-20px;
   } */
+
+  .mobile .m.close_icon{
+    width: 28px;
+    height: 28px;
+    background: url(../images/close.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    cursor: pointer;
+  }
 }
 
 .mfp-bg {
@@ -182,7 +193,7 @@
   display: none;
 }
 
-.mfp-content .close_icon{
+ /* .mfp-content #test-popup  .close_icon{
   width: 28px;
   height: 28px;
   background: url(../images/close.png) no-repeat;
@@ -191,7 +202,18 @@
   left: 50%;
   bottom: -50px;
   cursor: pointer;
-}
+} */
+
+/* .mfp-content .mobile .pc.m.close_icon{
+  width: 28px;
+  height: 28px;
+  background: url(../images/close.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  bottom: -50px;
+  cursor: pointer;
+} */
 /* button.mfp-close {
   overflow: visible;
   cursor: pointer;
@@ -204,6 +226,9 @@
   
 } */
 
+button.close_icon{
+  display: none;
+}
 
 button.mfp-arrow {
   overflow: visible;
@@ -732,12 +757,22 @@ button{
   border: none;
 }
 
-.close_icon{
+/* .mfp-content .n_popup .close_icon{
   width: 56px;
   height: 56px;
   background: url(../images/close.png) no-repeat;
   background-size: cover;
   position: absolute;
   left: 50%;
-  bottom: -89px;
+  bottom: -70px;
+} */
+
+.pc.close_icon{
+  width: 56px;
+  height: 56px;
+  background: url(../images/close.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  bottom: -70px;
 }

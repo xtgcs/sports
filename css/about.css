@@ -177,10 +177,10 @@ a:hover{
 
 .mobile .leadership {
     color: #333333;
-    padding: 15px;
+    padding: 5px;
     font-size: 15px;
     text-align: justify;
-    line-height: 34px;
+    line-height: 28px;
 }
 .mobile .leadership_img{
     width:114px;
@@ -204,6 +204,7 @@ a:hover{
 .mobile .leadership_content {
     overflow-y: scroll;
     height: 470px;
+    padding: 15px;
 }
 
 .mobile .leadership_content p {
@@ -232,6 +233,7 @@ a:hover{
 .company_content_box {
     max-height: 660px;
     overflow: hidden;
+    text-align: justify;
 }
 
 .company_title {
@@ -260,7 +262,9 @@ a:hover{
     text-align: right;
     cursor: pointer;
 }
-
+.company_content_more span{
+    color: #333333;
+}
 .about_icon {
     width: 16px;
     height: 14px;
@@ -391,15 +395,20 @@ a:hover{
     color: #666666;
     font-size: 21px;
     line-height: 32px;
+    text-decoration: none;
 }
 
+a:visited{
+    text-decoration: none;
+}
+a:link{ text-decoration: none;}
 
-
+#company-popup.white-popup-leadership,
 #test-popup.white-popup-leadership {
     position: absolute;
     background-color: #fff;
     width: 1050px;
-    height: 750px;
+    height: 695px;
     top: 50%;
     left: 50%;
     transform: translate3d(-50%, -50%, 0);
@@ -407,7 +416,7 @@ a:hover{
 
 .leadership {
     color: #333333;
-    padding: 44px;
+    padding: 20px;
     font-size: 21px;
     text-align: justify;
     line-height: 34px;
@@ -430,9 +439,20 @@ a:hover{
 }
 .leadership_content {
     overflow-y: scroll;
-    height: 655px;
+    height: 643px;
+    padding: 20px;
 }
 
 .leadership_content p {
     padding-top: 34px;
+}
+
+.white-popup-leadership .company_title{
+   font-size: 44px;
+   font-weight: bold;
+   margin-bottom: 43px;
+}
+
+.white-popup-leadership .leadership_content p {
+    padding-top: 0;
 }

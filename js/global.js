@@ -656,7 +656,6 @@ $(function () {
     var magnificPopup = $.magnificPopup.instance;
     $('.close_icon').click(function () {
         magnificPopup.close();
-        console.log('关闭');
     })
 
     try {
@@ -688,9 +687,9 @@ $(function () {
         $('.footer_h').hide();
     })
 
-    //  about页面点击更多
+    //about页面点击更多
     // $('.company_content_more').click(function () {
-
+    //     $('.company_img ').css('float', 'left');
     //     $('.company_content_box').css({ 'max-height': 'none', 'overflow': 'auto' });
     // })
     // var texts = $(".company_m_content").text().length;
@@ -700,14 +699,17 @@ $(function () {
     //     $('.company_m').append('<div class="company_m_more"> <span>More</span><img src="images/about/about_icon.png" alt=""></div>');
     // }
 
-    // $('.company_m_more').click(function () {
-    //     // var String = $(".company_m_content").text().substr(0, texts);
-    //     // $(".company_m_content").text(String);
-    //     // $(".company_m_content").slideToggle("slow"); 
-    //     $(".company_m_content").css('height', 'auto');
-    //     // $(".company_m_content").animate({ height: $(".company_m_content").outerHeight(), backgroundColor: 'white' }, 400);
+    $('.company_m_more').click(function () {
+        if ($(".company_m_content").css('max-height') == 'none') {
+            $(".company_m_content").css({ 'max-height': '150px', 'overflow': 'hidden' });
+            $('.company_m_more img').css('transform', 'rotate(0)');
 
-    // })
+        } else {
+            $(".company_m_content").css({ 'max-height': 'none', 'overflow': 'auto' });
+            $('.company_m_more img').css('transform', 'rotate(180deg)');
+        }
+
+    })
 
 
 

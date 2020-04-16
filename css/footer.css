@@ -81,7 +81,7 @@
     }
     .mobile .agreement{
         color: #333333;
-        padding: 15px;
+        padding: 5px;
         font-size: 15px;
         text-align: justify;
         line-height: 20px;
@@ -193,7 +193,7 @@
     position: absolute;
     background-color: #fff;
     width: 1050px;
-    height: 750px;
+    height: 684px;
     top:50%;
     left: 50%;
     transform: translate3d(-50%,-50%,0);
@@ -209,7 +209,7 @@
 } */
 .agreement{
     color: #333333;
-    padding: 65px;
+    padding: 40px;
     font-size: 21px;
     text-align: justify;
     line-height: 34px;
@@ -219,7 +219,8 @@
 }
 .agreement_content{
     overflow-y:scroll;
-    height: 600px;
+    height: 598px;
+    padding: 20px;
 }
 .agreement_content p{
     padding-bottom: 20px;

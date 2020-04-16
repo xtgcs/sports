@@ -1129,8 +1129,8 @@
 	$.magnificPopup.registerModule('image', {
 
 		options: {
-			markup: '<div class="mfp-figure">' +
-				'<div class="close_icon"></div>' +
+			markup: '<div class="mfp-figure mobile">' +
+				'<div class="close_icon pc m"></div>' +
 				'<figure>' +
 				'<div class="mfp-img"></div>' +
 				'<figcaption>' +

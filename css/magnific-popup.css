@@ -60,6 +60,7 @@
     left: 50%;
     bottom: -50px;
     cursor: pointer;
+    transform: translate3d(-50%,0,0);
   }
 }
 
@@ -775,4 +776,5 @@ button{
   position: absolute;
   left: 50%;
   bottom: -70px;
+  transform: translate3d(-50%,0,0);
 }

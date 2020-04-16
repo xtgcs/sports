@@ -141,7 +141,7 @@
     .releases .releases_box .item {
         overflow: hidden;
         background: rgba(255, 255, 255, 1);
-        box-shadow: 3px 5px 5.5px 1px rgba(51, 51, 51, 0.15);
+        box-shadow: 2px 4px 5px 0.5px rgba(51,51,51,0.15);
         margin-bottom: 20px;
     }
 
@@ -190,7 +190,10 @@
     .mobile.releases .list:nth-child(even) .releases_item {
         margin-left: 0;
     }
-
+    .mobile.releases  .releases_item{
+       box-shadow:   2px 4px 5px 0.5px rgba(51,51,51,0.15);
+    }
+  
     .mobile.news_wrap .list {
         margin-bottom: 20px;
     }
@@ -368,7 +371,7 @@
 
     .mobile .documents .item {
         background: rgba(255, 255, 255, 1);
-        box-shadow: 3px 5px 5.5px 1px rgba(51, 51, 51, 0.15);
+        box-shadow: 2px 4px 5px 0.5px rgba(51,51,51,0.15);
         font-size: 15px;
     }
    .mobile .mediatool .item_box .item p{
@@ -401,7 +404,7 @@
 .files_item {
     max-height: 158px;
     background: rgba(255, 255, 255, 1);
-    box-shadow: 3px 5px 11px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 3px 4px 8px 0px rgba(0, 0, 0, 0.15);
     margin-bottom: 18px;
     padding: 35px 45px;
     font-size: 26px;
@@ -428,7 +431,7 @@
 
 .pictures_list .list {
     background: rgba(255, 255, 255, 1);
-    box-shadow: 5px 9px 10px 1px rgba(51, 51, 51, 0.15);
+    box-shadow: 4px 5px 8px 1px rgba(51,51,51,0.15);
     margin-bottom: 52px;
 
 }
@@ -570,7 +573,7 @@
 .releases .item .news_desc .desc {
     /* padding: 0 12px; */
     background: rgba(255, 255, 255, 1);
-    box-shadow: 5px 9px 10px 1px rgba(51, 51, 51, 0.15);
+    box-shadow: 4px 5px 8px 1px rgba(51,51,51,0.15);
     padding-bottom: 12px;
 
 }
@@ -603,7 +606,7 @@
 } */
 .releases .releases_item {
     overflow: hidden;
-    box-shadow: 5px 9px 10px 1px rgba(51, 51, 51, 0.15);
+    box-shadow: 4px 5px 8px 1px rgba(51,51,51,0.15);
 
 }
 
@@ -831,7 +834,7 @@
 
 .documents .item {
     background: rgba(255, 255, 255, 1);
-    box-shadow: 5px 9px 10px 1px rgba(51, 51, 51, 0.15);
+    box-shadow: 4px 5px 8px 1px rgba(51,51,51,0.15);
     font-size: 21px;
     font-family: Georgia;
     padding: 14px 21px 21px 21px;

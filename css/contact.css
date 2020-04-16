@@ -64,6 +64,9 @@
         text-transform: uppercase;
     }
 }
+body{
+    background: #fafafa;
+}
 .contact{
     padding: 106px 0 56px 0;
     font-family: 'Georgia';
